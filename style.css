@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+body {
+    line-height: 1.6;
+    color: #333;
+    background-image: url(bck3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    height: 125px;
+    padding: 25px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 30px;
+    flex-basis: 10%;
+}
+
+nav ul li {
+    margin: 0 15px;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #e9f1ab;
+    text-decoration: none;
+    font-size: 24px;
+}
+nav ul li a:hover{
+    background-image: url("but.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: #333;
+    border-radius: 30px;
+    padding: 11px;
+}
+
+#home {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.intro {
+    text-align: center;
+    color: rgb(34, 31, 32);
+    color: #f6f5f5;
+    padding: 40px;
+}
+.intro img{
+    height: 220px;
+    width: 200px;
+    border-radius: 150px;
+    box-shadow: 5px 5px 8px rgb(241, 238, 238);
+    outline:3px solid #faf2f2;
+    
+}
+
+.intro h1 {
+    font-size: 50PX;
+    text-shadow: 8px 8px 6px rgb(30, 27, 27);
+}
+
+.intro p {
+    font-size: 1.5em;
+    margin: 10px 0;
+    text-shadow: 3px 6px 5px black;
+}
+
+.cta {
+    display: inline-block;
+    padding: 8px 17px;
+    background-color: #0792ee;
+    color: #fff;
+    text-decoration: none;
+    margin: 22px;
+    border-radius: 30px;
+    box-shadow: 15px 15px 10px black;
+}
+
+.cta:hover {
+    background-color: #f85483;
+}
+
+
+section {
+    text-align: center;
+    font-size: 30px;
+
+}
+.abouts{
+    height: 500px;
+    color: #f6f5f5;
+    padding:50px;
+}
+
+ .abouts h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 70px;
+    text-shadow: 5px 6px 6px black;
+}
+.abouts button{
+    height: 30px;
+    width: 60px;
+    background-color: #71b7fc;
+}
+.abouts button a{
+    text-decoration: none;
+}
+
+.item{
+    height: 1000px;
+    color: #f6f5f5;
+    padding: 60px;
+}
+.item h1{
+    font-size: 60px;
+    text-shadow: 5px 6px 6px black;
+}
+.item h2{
+    padding: 10px;
+    text-shadow: 3px 2px 6px black;
+}
+.item button{
+    height: 30px;
+    width: 60px;
+    background-color: #71b7fc;
+}
+.item button a{
+    text-decoration: none;
+}
+
+.project {
+    height: 1250px;
+    color: #f6f5f5;
+    font-style: inherit;
+    font-size: 32px;
+}
+.project h1{
+    padding-bottom: 30px;
+    text-shadow: 5px 6px 6px black;    
+}
+.project h2{
+    text-shadow: 2px 2px 6px black;
+}
+.project p{
+    padding: 35px;
+}
+.project button{
+    height: 30px;
+    width: 60px;
+    background-color: #71b7fc;
+}
+.project button a{
+    text-decoration: none;
+}
+
+.Skill{
+    height: 750px;
+    margin: -3px;
+    color: #f6f5f5;
+    padding-top: 30px;
+    font-size: 30px;
+
+}
+.Skill img{
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 8px 8px 5px black;
+
+}
+.Skill h1{
+    padding-bottom: 30px;
+    font-size: 75px;
+    text-shadow: 5px 6px 6px black;
+}
+.Skill button{
+    height: 30px;
+    width: 60px;
+    background-color: #a4cef8;
+}
+.Skill button a{
+    text-decoration: none;
+}
+
+
+.Contacts{
+    height: 380px;
+    margin: -3px;
+    color: #f6f5f5;
+    padding-top: 60px;
+}
+
+.Contacts h2{
+    text-shadow: 4px 4px 6px black;
+}
+.Contacts img{
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+.Contacts p{
+    color: #f6f5f5;
+    text-shadow: 2px 3px 6px black;
+   
+}
+.Contacts p a{
+    color: #e2e2f0;
+    text-decoration: none;
+}
+.Contacts button{
+    height: 30px;
+    width: 60px;
+    background-color: #71b7fc;
+}
+.Contacts button a{
+    text-decoration: none;
+}
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin: -3px;
+}
+
